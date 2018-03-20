@@ -19,3 +19,14 @@
 ###> symfony/web-server-bundle ###
 /.web-server-pid
 ###< symfony/web-server-bundle ###
+
+.idea
+composer.lock
+symfony.lock
+composer.phar
+npm-debug.log
+###> symfony/webpack-encore-pack ###
+/node_modules/
+/public/build/
+yarn.lock
+###< symfony/webpack-encore-pack ###
